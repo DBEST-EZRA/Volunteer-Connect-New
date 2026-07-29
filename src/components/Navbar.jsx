@@ -1,15 +1,15 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 
 const FONT_LINK_ID = "vc-navbar-fonts";
 
 const NAV_LINKS = [
-  { label: "Home", href: "#home" },
-  { label: "About Us", href: "#about" },
-  { label: "Projects", href: "#projects" },
-  { label: "Services", href: "#services" },
-  { label: "Blog", href: "#blog" },
-  { label: "Contact", href: "#contact" },
+  { label: "Home", href: "home" },
+  { label: "About Us", href: "about" },
+  { label: "Projects", href: "properties" },
+  { label: "Services", href: "services" },
+  { label: "Blog", href: "blog" },
+  { label: "Contact", href: "contact" },
 ];
 
 const Navbar = () => {
