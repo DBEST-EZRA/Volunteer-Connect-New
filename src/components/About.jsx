@@ -7,6 +7,7 @@ import {
   Award,
   CheckCircle2,
 } from "lucide-react";
+import { Link } from "react-router-dom";
 
 /* Counts a number up from 0 to `end` once its wrapper scrolls into view */
 const useCountUp = (end, duration = 1800) => {
@@ -162,14 +163,14 @@ const About = () => {
               />
             </div>
 
-            <a
-              href="#"
+            <Link
+              to="/about"
               className="mt-10 inline-flex items-center gap-2 rounded-full bg-black px-7 py-3.5 text-sm font-semibold text-white transition-all hover:bg-red-600 active:scale-[0.98]"
             >
               <Users className="h-4 w-4" />
               Learn More About Us
               <ArrowRight className="h-4 w-4" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

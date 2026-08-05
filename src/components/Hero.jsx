@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ArrowRight, PlayCircle, Award, Building2, MapPin } from "lucide-react";
+import { ArrowRight, Award, Building2, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const stats = [
