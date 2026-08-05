@@ -8,6 +8,7 @@ import {
   Wallet,
   ArrowRight,
 } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const reasons = [
   {
@@ -112,7 +113,7 @@ const WhyUs = () => {
           >
             <div className="relative overflow-hidden rounded-2xl">
               <img
-                src="https://placehold.co/640x720/1a1a1a/ffffff?text=Why+Choose+Us"
+                src="https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=1200&q=80"
                 alt="Volunteer Connect facilities management team at work"
                 className="h-[420px] w-full object-cover sm:h-[500px] lg:h-[560px]"
               />
@@ -160,13 +161,13 @@ const WhyUs = () => {
               ))}
             </ul>
 
-            <a
-              href="#"
+            <Link
+              to="/contact"
               className="mt-10 inline-flex items-center gap-2 rounded-full bg-black px-7 py-3.5 text-sm font-semibold text-white transition-all hover:bg-red-600 active:scale-[0.98]"
             >
               Get In Touch
               <ArrowRight className="h-4 w-4" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
