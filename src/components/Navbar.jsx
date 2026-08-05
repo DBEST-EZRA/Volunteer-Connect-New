@@ -49,7 +49,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <a href="#home" className="flex items-center gap-3 group">
-              <div className="w-11 h-11 flex items-center justify-center flex-shrink-0">
+              <div className="w-14 h-14 flex items-center justify-center flex-shrink-0">
                 <img
                   src="/vcc.png"
                   alt="Logo"
