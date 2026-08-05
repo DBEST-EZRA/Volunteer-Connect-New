@@ -49,17 +49,12 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <a href="#home" className="flex items-center gap-3 group">
-              <div
-                className="w-11 h-11 flex items-center justify-center flex-shrink-0"
-                style={{
-                  backgroundColor: "#1B3A2F",
-                  color: "#B8925A",
-                  fontFamily: "'Fraunces', serif",
-                  fontWeight: 600,
-                  fontSize: "18px",
-                }}
-              >
-                VC
+              <div className="w-11 h-11 flex items-center justify-center flex-shrink-0">
+                <img
+                  src="/vcc.png"
+                  alt="Logo"
+                  className="w-full h-full object-contain"
+                />
               </div>
               <div className="flex flex-col leading-none">
                 <span
@@ -67,7 +62,7 @@ const Navbar = () => {
                     fontFamily: "'Fraunces', serif",
                     fontWeight: 600,
                     fontSize: "19px",
-                    color: "#1B3A2F",
+                    color: "#cb0303",
                     letterSpacing: "0.01em",
                   }}
                 >
@@ -122,7 +117,7 @@ const Navbar = () => {
                 href="#contact"
                 className="inline-flex items-center px-6 py-2.5 transition-colors duration-300"
                 style={{
-                  backgroundColor: "#1B3A2F",
+                  backgroundColor: "#cb0303",
                   color: "#F4F0E6",
                   fontSize: "12px",
                   fontWeight: 600,
@@ -133,7 +128,7 @@ const Navbar = () => {
                   (e.currentTarget.style.backgroundColor = "#B8925A")
                 }
                 onMouseLeave={(e) =>
-                  (e.currentTarget.style.backgroundColor = "#1B3A2F")
+                  (e.currentTarget.style.backgroundColor = "#cb0303")
                 }
               >
                 Book a Consultation
