@@ -80,7 +80,7 @@ const About = () => {
           <div className="relative">
             <div className="relative overflow-hidden rounded-2xl">
               <img
-                src="https://placehold.co/640x760/1a1a1a/ffffff?text=Volunteer+Connect"
+                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&q=80"
                 alt="Facilities managed by Volunteer Connect Consultant"
                 className="h-[420px] w-full object-cover sm:h-[520px] lg:h-[620px]"
               />
@@ -155,7 +155,7 @@ const About = () => {
               />
               <Stat end={4} suffix="" label="Countries Served" Icon={MapPin} />
               <Stat
-                end={250}
+                end={1250}
                 suffix="+"
                 label="Properties Managed"
                 Icon={Building2}
