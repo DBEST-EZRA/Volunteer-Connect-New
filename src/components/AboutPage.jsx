@@ -224,8 +224,8 @@ const CHECKLIST = [
 
 const TIMELINE = [
   {
-    year: "2011",
-    text: "Founded in Nairobi with a single residential block and a promise: manage it like an owner would.",
+    year: "2012",
+    text: "Founded in Kisii with a single residential block and a promise: manage it like an owner would.",
   },
   {
     year: "2015",
@@ -237,14 +237,18 @@ const TIMELINE = [
   },
   {
     year: "Today",
-    text: "A full-service team overseeing residential, commercial and mixed-use properties across the region.",
+    text: "A full-service team overseeing residential, commercial and mixed-use properties across the country.",
   },
 ];
 
 const LEADERSHIP = [
-  { name: "Amina Otieno", role: "Managing Director", initials: "AO" },
-  { name: "Brian Mwangi", role: "Head of Property Operations", initials: "BM" },
-  { name: "Faith Wanjiru", role: "Client Relations Lead", initials: "FW" },
+  { name: "Joshua Abuga", role: "C.E.O", initials: "JA" },
+  {
+    name: "Brian Nyarangi",
+    role: "Head of Property Operations",
+    initials: "BN",
+  },
+  { name: "Faith Atieno", role: "Client Relations Lead", initials: "FA" },
   { name: "David Kariuki", role: "Finance & Compliance Lead", initials: "DK" },
 ];
 
@@ -347,7 +351,7 @@ export default function AboutPage() {
         <section className="bg-gradient-to-r from-[#5C1219] to-[#8A1F2B]">
           <div className="mx-auto grid max-w-7xl grid-cols-2 gap-y-10 px-5 py-12 sm:px-8 md:grid-cols-4 md:py-14">
             {[
-              { n: 14, suf: "+", label: "Years in service" },
+              { n: 13, suf: "+", label: "Years in service" },
               { n: 1250, suf: "+", label: "Properties managed" },
               { n: 97, suf: "%", label: "Average occupancy" },
               { n: 800, suf: "+", label: "Clients served" },
@@ -380,7 +384,7 @@ export default function AboutPage() {
                   Our story
                 </span>
                 <h2 className="mt-4 font-display text-3xl font-semibold leading-tight text-[#1C1917] sm:text-4xl">
-                  Fourteen years of managing property like it's personal.
+                  Thirteen years of managing property like it's personal.
                 </h2>
                 <p className="mt-5 text-base leading-relaxed text-[#57534E]">
                   Volunteer Connect Consultancy began with a single residential
@@ -599,15 +603,15 @@ export default function AboutPage() {
                 <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
                   <div className="flex flex-col gap-3 text-sm text-white/90">
                     <span className="flex items-center gap-2">
-                      <Phone size={16} className="text-[#D8BE8A]" /> +254 700
-                      000 000
+                      <Phone size={16} className="text-[#D8BE8A]" /> +254 720
+                      727421
                     </span>
                     <span className="flex items-center gap-2">
                       <Mail size={16} className="text-[#D8BE8A]" />{" "}
                       hello@volunteerconnect.co.ke
                     </span>
                     <span className="flex items-center gap-2">
-                      <MapPin size={16} className="text-[#D8BE8A]" /> Nairobi,
+                      <MapPin size={16} className="text-[#D8BE8A]" /> Kisii,
                       Kenya
                     </span>
                   </div>
