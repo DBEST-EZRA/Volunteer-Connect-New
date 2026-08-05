@@ -587,8 +587,8 @@ export default function ServicePage() {
               <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
                 <div className="flex flex-col gap-3 text-sm text-white/90">
                   <span className="flex items-center gap-2">
-                    <Phone size={16} className="text-[#D8BE8A]" /> +254 700 000
-                    000
+                    <Phone size={16} className="text-[#D8BE8A]" /> +254 720 727
+                    421
                   </span>
                   <span className="flex items-center gap-2">
                     <Mail size={16} className="text-[#D8BE8A]" />{" "}
