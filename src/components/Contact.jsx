@@ -71,9 +71,9 @@ const INFO_CARDS = [
   {
     icon: Phone,
     label: "Call us",
-    value: "+254 700 000 000",
+    value: "+254 720727421",
     sub: "Mon–Sat, 8am–6pm",
-    href: "tel:+254700000000",
+    href: "tel:+254720727421",
   },
   {
     icon: Mail,
@@ -85,8 +85,8 @@ const INFO_CARDS = [
   {
     icon: MapPin,
     label: "Visit us",
-    value: "Westlands, Nairobi",
-    sub: "Ring Road, 3rd Floor",
+    value: "Kisii, Kenya",
+    sub: "Umoja Complex Bld, 2nd Floor, Rm 10C",
     href: "#office",
   },
   {
@@ -375,11 +375,11 @@ const Contact = () => {
                   Our office
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-[#57534E]">
-                  Ring Road, Westlands
+                  Kisii CBD
                   <br />
-                  3rd Floor, Volunteer Connect House
+                  Umoja Complex Bld, 2nd Floor, Rm 10C
                   <br />
-                  Nairobi, Kenya
+                  Kisii, Kenya
                 </p>
 
                 <div className="mt-6 space-y-3 border-t border-[#EDE6D6] pt-5">
