@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import { ArrowRight, PlayCircle, Award, Building2, MapPin } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const stats = [
   { label: "Years of Experience", value: "13+", Icon: Award },
   { label: "Countries Served", value: "4", Icon: MapPin },
-  { label: "Properties Managed", value: "250+", Icon: Building2 },
+  { label: "Properties Managed", value: "1250+", Icon: Building2 },
 ];
 
 const Hero = () => {
@@ -22,7 +23,7 @@ const Hero = () => {
     }`;
 
   return (
-    <section className="relative overflow-hidden bg-black">
+    <section className="relative overflow-hidden bg-red-900">
       {/* ambient glow accents */}
       <div className="pointer-events-none absolute -left-32 -top-32 h-96 w-96 rounded-full bg-red-600/20 blur-3xl" />
       <div className="pointer-events-none absolute -right-24 top-1/3 h-80 w-80 rounded-full bg-amber-400/10 blur-3xl" />
@@ -64,20 +65,19 @@ const Hero = () => {
               style={{ transitionDelay: "300ms" }}
               className={`mt-9 flex flex-wrap items-center gap-4 ${fade()}`}
             >
-              <a
-                href="#services"
-                className="inline-flex items-center gap-2 rounded-full bg-red-600 px-7 py-3.5 text-sm font-semibold text-white transition-all hover:bg-red-500 active:scale-[0.98]"
+              <Link
+                to="/services"
+                className="inline-flex items-center gap-2 rounded-full bg-red-600 px-8 py-3 text-white font-semibold shadow-lg transition hover:bg-red-700"
               >
                 Our Services
-                <ArrowRight className="h-4 w-4" />
-              </a>
-              <a
-                href="#"
-                className="inline-flex items-center gap-2 rounded-full border border-white/20 px-7 py-3.5 text-sm font-semibold text-white transition-all hover:border-amber-400 hover:text-amber-400"
+                <ArrowRight size={18} />
+              </Link>
+              <Link
+                to="/about"
+                className="inline-flex items-center gap-2 rounded-full border-2 border-white-600 px-8 py-3 font-semibold text-white transition hover:bg-red-600 hover:text-white"
               >
-                <PlayCircle className="h-4 w-4" />
-                See How We Work
-              </a>
+                Our Story
+              </Link>
             </div>
 
             {/* Stats */}
@@ -104,7 +104,7 @@ const Hero = () => {
           >
             <div className="relative overflow-hidden rounded-2xl">
               <img
-                src="https://placehold.co/640x760/262626/ffffff?text=Volunteer+Connect"
+                src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&q=80"
                 alt="Volunteer Connect facilities management in action"
                 className="h-[380px] w-full object-cover sm:h-[460px] lg:h-[560px]"
               />
